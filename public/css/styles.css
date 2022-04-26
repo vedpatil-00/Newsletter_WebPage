@@ -1,0 +1,164 @@
+html,
+body {
+  height: 100%;
+  background-color: #FADCAC;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-se;
+  padding-top: 2rem;
+}
+
+body {
+  align-items: center;
+}
+
+/* HEADER AND TITLE */
+.main-div {
+  background-color: #FADCAC;
+  height: 100%;
+}
+
+.header-div {
+  width: 75%;
+  margin: 0 auto 7rem;
+  text-align: center;
+}
+
+.header-div h1 {
+  font-size: 4.5rem;
+}
+
+.image-div-left {
+  float: left;
+  width: 25%;
+}
+
+.title-div {
+  display: inline-block;
+  width: 50%;
+  margin: 5rem 0 3.5rem;
+}
+
+.image-div-right {
+  float: right;
+  width: 25%;
+}
+
+/* MAIN CONTENT - PARAGRAPH AND SIGN UP FORM */
+.paragraph {
+  width: 63%;
+  margin: 0 auto;
+}
+
+.text {
+  text-align: justify;
+  width: 55%;
+  float: left;
+}
+
+.signup-div {
+  padding-left: 65%
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-bottom: -1px;
+}
+
+.middle {
+  border-radius: 0;
+}
+
+.bottom {
+  margin-bottom: 30px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-top: -1px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1660px) {
+  .header-div h1 {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .title-div {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .image-div-left {
+    width: 100%;
+    text-align: left;
+  }
+
+  .title-div {
+    width: 50%;
+    text-align: center;
+  }
+
+  .image-div-right {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 7rem;
+  }
+
+  .header-div h1 {
+    font-size: 2.8rem;
+  }
+
+  .text {
+    text-align: justify;
+    width: 100%;
+    margin-bottom: 7rem;
+  }
+
+  .signup-div {
+    text-align: center;
+    width: 100%;
+    padding: 0 0 5rem;
+  }
+}
+
+.thumbs-div {
+  float: right;
+}
+
+.text-div {
+  width: 50%;
+  margin: 0;
+  float: left;
+  text-align: justify;
+}
+
+.text-div h1 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  margin-top: 110px;
+}
